@@ -16,10 +16,7 @@
 
 ## 4.**blob**:所新增至 git 的*內容*
 
-新增前:
+## 5.**tree**:所新增至 git 的*資料夾*
 
-- object 內容:![範例4-1](./sampleIMGs/11.png "新增檔案前")
-- 新增檔案前:![範例4-2](./sampleIMGs/12.png "新增檔案前")
-  新增後:
-- object 內容:![範例4-1](./sampleIMGs/14.png "新增檔案後")
-- 新增檔案後:![範例4-2](./sampleIMGs/13.png "新增檔案後")
+檔案格式:![範例4-1](./sampleIMGs/15.png "檔案格式")  
+所對應 github 上內容:![範例4-2](./sampleIMGs/16.png "更改分支後")
