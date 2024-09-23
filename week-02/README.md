@@ -7,9 +7,9 @@
 
 # nvm V.S. npm
 
-1. **nvm(node version manager) :**node.js 的版本管理器，可以切換 node 的版本，可以用來測試程式在不同版本下的 node 是否可以順利運作
+1. **nvm(node version manager)**:node.js 的版本管理器，可以切換 node 的版本，可以用來測試程式在不同版本下的 node 是否可以順利運作
 
-2. **npm(node package manager):**模組管理器，管理以 node.js 所開發的模組
+2. **npm(node package manager)**:模組管理器，管理以 node.js 所開發的模組
 
    ```
    npm init
