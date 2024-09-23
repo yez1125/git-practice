@@ -1,0 +1,14 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "本身對前端有些許了解，但對後端實際在幹嘛一無所知，所以想藉由這堂課了解後端到底在做什麼，\r 並探索自己是喜歡前端還是後端，找到自己未來想往哪一塊發展。\r 希望這門課結束以後，除了能找到方向外，\r 也能將後端的一些基礎知識學好，並且了解一些業界常用的技巧。\r 最後有能力獨自架構出一個能用的網站!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yt-player": "^3.6.1"
+  }
+}
