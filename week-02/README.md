@@ -10,7 +10,7 @@
 1. **nvm*(node version manager)*:**node.js 的版本管理器，可以切換 node 的版本，可以用來測試程式在不同版本下的 node 是否可以順利運作
 
 2. **npm*(node package manager)*:**模組管理器，管理以 node.js 所開發的模組  
-   使用'npm init'時，會新增*package.json*的檔案(如圖一標示 1、圖二)，裡面會記錄所下載的模組以及其他資訊，當下載第一個模組時，會新增*node_modules*和*package-lock.json*(如圖一標示 2、3)，*node_modules*會放模組的程式(圖三)，*package-lock.json*會放模組更細節的資訊(圖四)  
+   使用'''npm init'''時，會新增*package.json*的檔案(如圖一標示 1、圖二)，裡面會記錄所下載的模組以及其他資訊，當下載第一個模組時，會新增*node_modules*和*package-lock.json*(如圖一標示 2、3)，*node_modules*會放模組的程式(圖三)，*package-lock.json*會放模組更細節的資訊(圖四)  
    圖一:![圖一](./sampleIMGs/1.png "資料夾變化")  
    圖二:![圖二](./sampleIMGs/3.png "package.json")  
    圖三:![圖三](./sampleIMGs/4.png "node_modules")  
