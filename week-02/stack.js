@@ -1,5 +1,6 @@
 class Stack {
   // TODO: # 有特別的意思嗎？請以註解回覆。
+  //#代表後面所接變數只供這個class使用，外部的程式不論如何都無法使用
   #items;
 
   constructor() {
