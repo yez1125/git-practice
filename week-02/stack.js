@@ -14,7 +14,7 @@ class Stack {
 
   // 移除並回傳 stack 頂部的元素
   pop() {
-    if (this.isEmpty) {
+    if (this.isEmpty()) {
       return "stack has been empty";
     } else {
       return this.#items.pop();
@@ -25,7 +25,7 @@ class Stack {
   peek() {
     // TODO
 
-    if (this.isEmpty) {
+    if (this.isEmpty()) {
       return "stack has been empty";
     } else {
       return this.#items[this.#items.length - 1];
