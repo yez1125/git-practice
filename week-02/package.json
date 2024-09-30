@@ -1,0 +1,12 @@
+{
+  "name": "week-02",
+  "version": "1.0.0",
+  "description": "我的 node.js 選擇下載 v20.17.0 的版本\r ![範例1](./sampleIMGs/1.png \"node.js版本\")",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

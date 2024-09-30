@@ -1,5 +1,6 @@
 //因為不支援ES6，所以要轉換成此形式
-const { Stack } = require("./stack.js");
+//const { Stack } = require("./stack.js");
+import Stack from "./stack.js";
 let stack = new Stack();
 stack.print();
 
