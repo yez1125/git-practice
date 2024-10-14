@@ -61,6 +61,29 @@ sudo 是 Super User DO 的縮寫，簡單來說就是以電腦管理員的身分
 - boot: 裡面放著執行作業系統所需的程式
 - var: 裡面放著在執行系統時會被更改的檔案
 
+# Nginx 設定檔
+
+在 sites-enabled 裡修改檔案
+
+```
+server {
+        listen 80 default_server;
+        listen [::]:80 default_server;
+
+         index index.html index.htm index.nginx-debian.html;
+
+        server_name 18.183.76.112;
+
+        location / {
+
+                proxy_pass http://127.0.0.1:3000;
+                proxy_http_version 1.1;
+                proxy_set_header Host $host;
+        }
+}
+
+```
+
 # Nginx 的 Log 檔案
 
 因為是 log 檔，所以我一開始猜測在 var 的資料夾，所以我就 cd 進 var ，並利用 ls 來看這個資料夾有什麽，最終順利找到 Nginx 這個資料夾，裡面包含 access.log 和 error.log。並利用 cat 查看裡面內容。
