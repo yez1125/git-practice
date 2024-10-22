@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "git-practice": "file:",
     "yt-player": "^3.6.1"
   }
 }
