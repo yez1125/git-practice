@@ -2,7 +2,7 @@
 
 **問題:**  
 ![圖一](./assets/1.png "問題一")
-發現是 /etc/nginx/nginx.conf 裡多一個";"，所以切進去看。
+發現是 /etc/nginx/nginx.conf 裡多一個";"，所以切進去看。  
 **解決辦法:**
 ![圖二](./assets/2.png "解決辦法一")
 刪掉就將問題一解決
