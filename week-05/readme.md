@@ -1,6 +1,6 @@
 # 網址
 
-[https://www.yezlin.me](http://www.yezlin.me/)
+[https://www.yezlin.me](https://www.yezlin.me/)
 
 # 購買網域
 
