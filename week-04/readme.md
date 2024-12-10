@@ -1,6 +1,6 @@
 # public IP
 
-18.183.76.112
+54.199.159.191
 
 # instance type
 
