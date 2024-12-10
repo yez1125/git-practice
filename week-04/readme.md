@@ -63,7 +63,7 @@ sudo 是 Super User DO 的縮寫，簡單來說就是以電腦管理員的身分
 
 # Nginx 設定檔
 
-在 sites-enabled 裡修改檔案
+在 sites-available 裡修改檔案
 
 ```
 server {
@@ -72,7 +72,7 @@ server {
 
          index index.html index.htm index.nginx-debian.html;
 
-        server_name 18.183.76.112;
+        server_name 54.199.159.191;
 
         location / {
 
